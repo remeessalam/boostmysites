@@ -63,7 +63,7 @@ Tags			: It, Agency, Sass, Startup, Business, Foundation
   --bc: #a0a0a645;
   --line-height: 25px;
   --body-font-size: 16px;
-  --body-bg: #0d0c1c;
+  --body-bg: #0f0f0f;
   --page-bg: #131225;
   --btn-bg: #f0801c;
   --blank-color: #f0801c;
@@ -102,11 +102,6 @@ body {
   font-size: var(--body-font-size);
   font-weight: 400;
   scroll-behavior: smooth;
-
-  background-image: url("assets/home-page-banner.webp");
-  background-size: cover; /* Ensures the image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
 }
 
 a,
@@ -126,19 +121,10 @@ img {
 
 .home {
   background: var(--body-bg);
-  background-image: url("assets/home-page-banner.webp");
-  background-size: cover; /* Ensures the image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
 }
 
 .page-template {
   background: var(--page-bg) !important;
-
-  background-image: url("assets/home-page-banner.webp");
-  background-size: cover; /* Ensures the image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
 }
 
 input[type="number"] {
