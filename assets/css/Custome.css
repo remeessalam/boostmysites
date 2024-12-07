@@ -12,18 +12,19 @@
 .price-tag svg {
   width: 30px;
   height: 30px;
-  fill: #68f2a0;
+  fill: #f0801c;
 }
 
 .plan-card {
-  border: 2px solid #68f2a0;
+  border: 2px solid #f0801c;
   border-radius: 20px;
   padding: 2rem 1rem;
   height: 100%;
+  background-color: #343434cc;
 }
 
 .price {
-  color: #68f2a0;
+  color: #f0801c;
   font-size: 1.75rem;
   font-weight: bold;
   text-align: center;
@@ -31,14 +32,17 @@
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #d1f831;
-  color: inherit;
+  background-color: #f0801c;
+  color: #f0801c;
   box-shadow: none;
+  font-weight: 600;
 }
 
 .accordion-button:focus {
   box-shadow: none;
-  border-color: #d1f831;
+  border-color: #f0801c;
+  color: #f0801c;
+  font-weight: 600;
 }
 
 .plan-title {
@@ -46,6 +50,14 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
+  color: #f0801c;
+}
+.customestyleadjust {
+  padding-left: 35px;
+}
+.customestyleadjust ul {
+  padding-left: 5px;
+  margin-left: 15px;
 }
 
 @media (max-width: 768px) {
@@ -53,3 +65,189 @@
     margin-bottom: 2rem;
   }
 }
+
+.about {
+  min-height: 100vh;
+  background-color: #0a0a16;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
+}
+
+.image-circle {
+  border-radius: 50%;
+  overflow: hidden;
+  animation: float 6s ease-in-out infinite;
+  animation-delay: var(--delay);
+  justify-self: center;
+  align-self: center;
+}
+
+.image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.center {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 300px;
+  height: 300px;
+  border: 4px solid #f0801c;
+}
+
+.image-circle:not(.center) {
+  width: 250px;
+  height: 250px;
+}
+
+.serviceimagecustom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.customstyleforplanheading {
+  color: #f0801c;
+  font-weight: 700;
+}
+
+.customeulstyle {
+  margin-left: 10px;
+  color: black;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .center {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .image-circle:not(.center) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .center {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .image-circle:not(.center) {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  border-color: #f0801c;
+  transform: scale(1.02);
+}
+.card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f0801c;
+  margin-bottom: 10px;
+}
+.card-description {
+  font-size: 0.9rem;
+  color: #e5e5e5;
+}
+/* .card-arrow {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #fbbf24;
+  border-right: 2px solid #fbbf24;
+  transform: rotate(45deg);
+} */
