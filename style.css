@@ -2241,8 +2241,8 @@ input[type="number"] {
 }
 @media screen and (max-width: 400px) {
   .hero__text--content h2 {
-    font-size: 2.375rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 .hero__text--content h2 span {
