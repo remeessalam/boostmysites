@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Insoand - It Startup and Sass Website HTML5 Template">
+	<meta name="keywords"
+		content="Startup, agency, user-interface, data-visualization, Modern, innovation, innovative, Marketing, saas, Seo-agency">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Insomniacafe">
+
+	<title>Insoand - Startup and Technology Website HTML5 Template.</title>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="assets/img/logo/favicon.ico">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Kurson Css -->
+	<link rel="stylesheet" href="assets/css/kursor.css">
+	<!-- slick slider css -->
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!-- Nice select css -->
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<!-- fontawesome css -->
+	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<!-- normalize css -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<!-- modal video css -->
+	<link rel="stylesheet" href="assets/css/modal-video.min.css">
+	<!-- Sal Animation css -->
+	<link rel="stylesheet" href="assets/css/sal.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<!-- meanmenu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home blank">
+	<!-- preloader -->
+	<div id="preloader" class="inso-preloader">
+		<span class="loader"></span>
+	</div>
+	<!-- preloader end -->
+	<!-- offcanvase menu -->
+	<div class="o-hidden">
+		<div class="offcanvase">
+			<div class="offcanvase__menu">
+				<div class="offcanvase__menu--content">
+					<div class="offcanvase__menu--top mb-30 d-flex justify-content-between">
+						<div class="offcanvase__menu--logo">
+							<div class="offcanvase__logo">
+								<a href="index.html">
+									<img src="assets/img/logo/logo.svg" alt="insoand">
+								</a>
+							</div>
+						</div>
+						<div class="offcanvase__menu--close-icon">
+							<div class="close-menu pointer"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+						</div>
+					</div>
+					<div class="offcanvase-menu o-hidden mb-30"></div>
+					<div class="offcanvase__button mb-30">
+						<a class="login" href="login.html">Login</a>
+						<a class="signup" href="register.html">Sign Up</a>
+					</div>
+					<div class="offcanvase__menu--contact center">
+						<h4 class="offcanvase__menu--contact-title mb-20">Contact Us</h4>
+						<div class="offcanvase__menu--contact-text">
+							<ul>
+								<li><a href="tel:+8801755202096">+8801755202096</a></li>
+								<li><a href="mailto:contact@insomniacafe.org">contact@insomniacafe.org</a></li>
+							</ul>
+							<p>Kushtia Sador, Kushtia, Bangladesh</p>
+						</div>
+					</div>
+					<div class="offcanvase__menu--social">
+						<ul class="d-flex justify-content-center gap-3">
+							<li class="social-item"><a href="#" target="_blank"><i
+										class="fa-brands fa-facebook"></i></a></li>
+							<li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+							</li>
+							<li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-line"></i></a>
+							</li>
+							<li class="social-item"><a href="#" target="_blank"><i
+										class="fa-brands fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<div class="thanks-giving mt-5">
+						<img src="assets/img/thanks.jpg" alt="thank you">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="offcanvas__overlay"></div>
+	<!-- offcanvase menu end -->
+
+
+	<!-- <header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header__wrapper">
+					<div class="header__logo">
+						<a href="index.html"><img src="assets/img/logo/logo.svg" alt="Insoand Logo"></a>
+					</div>
+					<div class="header__menu">
+						<nav Id="offcanvase__menu">
+							<ul>
+								<li class="has-children"><a href="index.html">Home</a>
+									<ul class="submenu">
+										<li><a href="index.html">Home One</a></li>
+										<li><a href="index-2.html">Home Two</a></li>
+										<li><a href="index-3.html">Home Three</a></li>
+										<li><a href="index-4.html">Home Four</a></li>
+										<li><a href="index-5.html">Home Five</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li class="has-children"><a href="portfolio.html">Portfolio</a>
+									<ul class="submenu">
+										<li><a href="portfolio.html">Portfolio</a></li>
+										<li><a href="portfolio-details.html">Portfolio Details</a></li>
+									</ul>
+								</li>
+								<li class="has-children"><a href="#">Page</a>
+									<ul class="submenu">
+										<li class="has-children"><a href="#">Service</a>
+											<ul class="submenu">
+												<li><a href="service.html">Service</a></li>
+												<li><a href="service-details.html">Service Details</a></li>
+											</ul>
+										</li>
+										<li class="has-children"><a href="team.html">Team</a>
+											<ul class="submenu">
+												<li><a href="team.html">Team</a></li>
+												<li><a href="team-details.html">Team Details</a></li>
+											</ul>
+										</li>
+										<li class="has-children"><a href="shop.html">Shop</a>
+											<ul class="submenu">
+												<li><a href="shop.html">Shop</a></li>
+												<li><a href="shop-details.html">Shop Details</a></li>
+												<li><a href="cart.html">Cart</a></li>
+												<li><a href="checkout.html">checkout</a></li>
+											</ul>
+										</li>
+
+										<li class="has-children"><a href="career.html">Career</a>
+											<ul class="submenu">
+												<li><a href="career.html">Career</a></li>
+												<li><a href="career-details.html">Career Details</a></li>
+											</ul>
+										</li>
+										<li><a href="testimonial.html">Testimonial</a></li>
+										<li><a href="pricing.html">Pricing</a></li>
+										<li><a href="faq.html">Faq</a></li>
+										<li><a href="404.html">404</a></li>
+									</ul>
+								</li>
+								<li class="has-children"><a href="blog.html">Blog</a>
+									<ul class="submenu">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-left.html">Blog Left Sidebar</a></li>
+										<li><a href="blog-details.html">Blog Details</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__right">
+						<div class="header__right--btn">
+							<a class="login" href="login.html">Login</a>
+							<a class="signup" href="register.html">Sign Up</a>
+
+						</div>
+						<button class="menu-icon d-md-block d-lg-none"><i
+								class="fa-sharp fa-solid fa-bars"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header -->
+
+
+	<!-- header top -->
+	<div class="insotop pt-20 pb-20">
+		<div class="container">
+			<div class="row">
+				<div class="insotop__wrapper">
+					<div class="left-area d-flex flex-wrap gap-3">
+						<div><span class="mr-10"><i class="fa-regular fa-location-dot"></i></span>6AV. America.office145
+						</div>
+						<div><span class="mr-10"><i class="fa-solid fa-phone"></i></span>+8801755202096</div>
+					</div>
+					<div class="center-area text-center">
+						<a href="index.html"><img src="assets/img/logo/home-2-header-logo.svg" alt=""></a>
+					</div>
+					<div class="right-area text-end">
+						<div class="menu-bar"><button><i class="fa-light fa-bars-staggered"></i></button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header top end -->
+
+	<!-- header menu -->
+	<div class="PrimaryMenu blank">
+		<div class="container">
+			<div class="row">
+				<div class="PrimaryMenu__wrapper">
+					<div class="header__menu">
+						<nav Id="offcanvase__menu">
+							<ul>
+								<li class="has-children"><a href="index.html">Home</a>
+									<ul class="submenu">
+										<li><a href="index.html">Home One</a></li>
+										<li><a href="index-2.html">Home Two</a></li>
+										<li><a href="index-3.html">Home Three</a></li>
+										<li><a href="index-4.html">Home Four</a></li>
+										<li><a href="index-5.html">Home Five</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li class="has-children"><a href="portfolio.html">Portfolio</a>
+									<ul class="submenu">
+										<li><a href="portfolio.html">Portfolio</a></li>
+										<li><a href="portfolio-details.html">Portfolio Details</a></li>
+									</ul>
+								</li>
+								<li class="has-children"><a href="#">Page</a>
+									<ul class="submenu">
+										<li class="has-children"><a href="#">Service</a>
+											<ul class="submenu">
+												<li><a href="service.html">Service</a></li>
+												<li><a href="service-details.html">Service Details</a></li>
+											</ul>
+										</li>
+										<li class="has-children"><a href="team.html">Team</a>
+											<ul class="submenu">
+												<li><a href="team.html">Team</a></li>
+												<li><a href="team-details.html">Team Details</a></li>
+											</ul>
+										</li>
+										<li class="has-children"><a href="shop.html">Shop</a>
+											<ul class="submenu">
+												<li><a href="shop.html">Shop</a></li>
+												<li><a href="shop-details.html">Shop Details</a></li>
+												<li><a href="cart.html">Cart</a></li>
+												<li><a href="checkout.html">checkout</a></li>
+											</ul>
+										</li>
+
+										<li class="has-children"><a href="career.html">Career</a>
+											<ul class="submenu">
+												<li><a href="career.html">Career</a></li>
+												<li><a href="career-details.html">Career Details</a></li>
+											</ul>
+										</li>
+										<li><a href="testimonial.html">Testimonial</a></li>
+										<li><a href="pricing.html">Pricing</a></li>
+										<li><a href="faq.html">Faq</a></li>
+										<li><a href="404.html">404</a></li>
+									</ul>
+								</li>
+								<li class="has-children"><a href="blog.html">Blog</a>
+									<ul class="submenu">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-left.html">Blog Left Sidebar</a></li>
+										<li><a href="blog-details.html">Blog Details</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__btn">
+						<a href="#" class="btn-two">Get Started Now <i class="fa-solid fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header menu end -->
+
+	<!-- hero area -->
+	<section class="heroTwo blank pt-80 pb-80">
+		<div class="container">
+			<div class="row">
+				<div class="heroTwo__wrapper">
+					<div class="heroTwo__text">
+						<span>Best Agency in Town</span>
+						<h1>Digital Agency For <span class="animate animated__btn"><i
+									class="fa-light fa-arrow-right-long"></i></span> Your Global <strong
+								class="stroke-2">Business</strong> </h1>
+						<p>Focus on retaining existing customers. It's typically more cost-effective
+							to keep a current customer than to acquire a new one. Enhance
+							customer satisfaction, provide excellent customer service,
+						</p>
+						<div class="heroTwo__button d-flex flex-wrap justify-content-center gap-3">
+							<a class="btn-two" href="#">Explore More <i class="fa-solid fa-play"></i></a>
+							<a class="btn-two no-border" href="#">View Services <i class="fa-solid fa-play"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- hero area end -->
+
+	<!-- service area -->
+	<div class="serviceTwo">
+		<div class="container">
+			<div class="row">
+
+			</div>
+		</div>
+	</div>
+	<!-- service area end -->
+
+	<!-- about us -->
+	<section class="aboutUs">
+		<div class="container">
+			<div class="row">
+				<div class="sectionStyle__two">
+					<span><img src="assets/img/animated-icon/section.svg" alt="">About Us</span>
+					<h3>We Are The Best <u>Agency</u>
+						In The City.</h3>
+				</div>
+			</div>
+			<div class="row reverse">
+				<div class="col-lg-6">
+					<div class="aboutUs__single">
+						<h6>Our Mission & Vision</h6>
+						<p>This outlines the agency's purpose, its primary goals, the target
+							audience or community it serves, and how it serves them. It is a
+							concise summary of the core values and reason for the
+							agency's existence.</p>
+					</div>
+					<div class="aboutUs__single">
+						<h6>We’re Since <span>2023</span></h6>
+						<p>This outlines the agency's purpose, its primary goals, the target
+							audience or community it serves, and how it serves them. It is a
+							concise summary of the core values and reason for the
+							agency's existence.</p>
+					</div>
+
+				</div>
+				<div class="col-lg-6">
+					<div class="image__section">
+						<div class="bg__animate">
+							<div class="bg__animate--round"></div>
+							<img src="assets/img/animated-icon/grap-2.png" alt="">
+						</div>
+						<div class="aboutUs__big">
+							<div class="aboutBigImage">
+								<img src="assets/img/about/about-two.jpg" alt="">
+							</div>
+							<div class="aboutSmallImage">
+								<img src="assets/img/about/about-two-2.jpg" alt="">
+								<div class="yt__button play"><i class="i fa-solid fa-play"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about us end -->
+
+
+	<!-- funfact -->
+	<div class="funFact pt-110 pb-110">
+		<div class="container">
+			<div class="row">
+				<div class="funFact__wrapper">
+					<div class="funFact__item">
+						<div class="d-flex gap-3 item"><h2>12<span>K</span></h2> 
+							<img src="assets/img/animated-icon/funfact.svg" alt=""> 
+						</div>
+						<p>Happy Customers</p>
+					</div>
+					<div class="funFact__item">
+						<div class="d-flex gap-3 item"><h2>35<span>K</span></h2> 
+							<img src="assets/img/animated-icon/funfact.svg" alt=""> 
+						</div>
+						<p>success Project</p>
+					</div>
+					<div class="funFact__item">
+						<div class="d-flex gap-3 item"><h2>150<span>%</span></h2> 
+							<img src="assets/img/animated-icon/funfact.svg" alt=""> 
+						</div>
+						<p>Conversion Rate Increased</p>
+					</div>
+					<div class="funFact__item">
+						<div class="d-flex gap-3 item"><h2>450<span>+</span></h2> 
+							<img src="assets/img/animated-icon/funfact.svg" alt=""> 
+						</div>
+						<p>Awards Wining</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- funfact end -->
+
+	<!-- case studies -->
+	<section class="caseStudy">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="sectionStyle__two text-center">
+					<span><img src="assets/img/animated-icon/section.svg" alt="">About Us</span>
+					<h3>Our Success <u>Projects</u>
+						That Inspire.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Branding</a></div>
+							<div class="ptype"><h4><a href="#">Technical Agency</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2-2.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Marketing</a></div>
+							<div class="ptype"><h4><a href="#">Social Engagement</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2-3.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Marketing</a></div>
+							<div class="ptype"><h4><a href="#">Technical Agency</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2-4.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Branding</a></div>
+							<div class="ptype"><h4><a href="#">Industry experts</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2-5.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Branding</a></div>
+							<div class="ptype"><h4><a href="#">InsoAi Full Website</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="caseStudy__single">
+						<div class="image">
+							<img src="assets/img/project/project-2-6.jpg" alt="">
+							<a href="#" class="round_with_arrow">
+								<i class="fa-solid fa-long-arrow-right"></i>
+							</a>
+						</div>
+						<div class="meta">
+							<div class="category"><a href="#">Branding</a></div>
+							<div class="ptype"><h4><a href="#">Technical Agency</a></h4></div>
+						</div>
+
+					</div>
+				</div>
+				<div class="center-button text-center pt-30">
+					<a href="#" class="button__two">
+						See All Project <span><i class="fa-solid fa-long-arrow-right"></i></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- case studies end-->
+	
+	<!-- service -->
+	<div class="serviceTwo pt-110 pb-80">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="sectionStyle__two text-center">
+					<span><img src="assets/img/animated-icon/section.svg" alt="">About Us</span>
+					<h3>Design As a <u>Services</u>
+						Is The Why Forward.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="serviceTwo__single">
+						<div class="image">
+							<img src="assets/img/service/service-2.jpg" alt="">
+							<div class="serial">01</div>
+						</div>
+						<div class="meta">
+							<a href="#">Research</a>
+							<p>It is a concise summary of the
+								core values and reason for the
+								agency's existence.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="serviceTwo__single">
+						<div class="image">
+							<img src="assets/img/service/service-2-2.jpg" alt="">
+							<div class="serial">02</div>
+						</div>
+						<div class="meta">
+							<a href="#">Drawing</a>
+							<p>It is a concise summary of the
+								core values and reason for the
+								agency's existence.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="serviceTwo__single">
+						<div class="image">
+							<img src="assets/img/service/service-2-3.jpg" alt="">
+							<div class="serial">03</div>
+						</div>
+						<div class="meta">
+							<a href="#">testing </a>
+							<p>It is a concise summary of the
+								core values and reason for the
+								agency's existence.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="serviceTwo__single">
+						<div class="image">
+							<img src="assets/img/service/service-2-4.jpg" alt="">
+							<div class="serial">04</div>
+						</div>
+						<div class="meta">
+							<a href="#">Working</a>
+							<p>It is a concise summary of the
+								core values and reason for the
+								agency's existence.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- service end -->
+
+	<!-- testim -->
+	<div class="testimonialTwo">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4">
+					<div class="testimonialTwo__left">
+						<div class="pagination__dots"></div>
+						<div class="image">
+							<img src="assets/img/testimonial/testimonial-two.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="testimonialTwo__right">
+						<div class="testimonialTwo__content slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="d-flex justify-content-between">
+										<div class="rating">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="quote">
+											<img src="assets/img/animated-icon/quote-two.png" alt="">
+										</div>
+									</div>
+									<p>High-quality images are essential for marketing materials and websites. Whether you need product photography, headshots, or lifestyle shots, professional photographers can capture the right images for your business. Content is king in the digital age. Creative services can help you create. We dream of a world where
+									and where our commitment to continues to drive innovation, inclusivity, and excellence.
+									</p>
+									<div class="d-flex gap-3 align-items-center mt-20">
+										<div class="tauthor">
+											<img src="assets/img/testimonial/author-1.png" alt="">
+										</div>
+										<div class="tnamedes">
+											<h6>Savanna Nguyen
+												<span>CEO</span>
+											</h6>
+			
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="d-flex justify-content-between">
+										<div class="rating">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="quote">
+											<img src="assets/img/animated-icon/quote-two.png" alt="">
+										</div>
+									</div>
+									<p>High-quality images are essential for marketing materials and websites. Whether you need product photography, headshots, or lifestyle shots, professional photographers can capture the right images for your business. Content is king in the digital age. Creative services can help you create. We dream of a world where
+									and where our commitment to continues to drive innovation, inclusivity, and excellence.
+									</p>
+									<div class="d-flex gap-3 align-items-center mt-20">
+										<div class="tauthor">
+											<img src="assets/img/testimonial/author-1.png" alt="">
+										</div>
+										<div class="tnamedes">
+											<h6>Savanna Nguyen
+												<span>CEO</span>
+											</h6>
+			
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="d-flex justify-content-between">
+										<div class="rating">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+										</div>
+										<div class="quote">
+											<img src="assets/img/animated-icon/quote-two.png" alt="">
+										</div>
+									</div>
+									<p>High-quality images are essential for marketing materials and websites. Whether you need product photography, headshots, or lifestyle shots, professional photographers can capture the right images for your business. Content is king in the digital age. Creative services can help you create. We dream of a world where
+									and where our commitment to continues to drive innovation, inclusivity, and excellence.
+									</p>
+									<div class="d-flex gap-3 align-items-center mt-20">
+										<div class="tauthor">
+											<img src="assets/img/testimonial/author-1.png" alt="">
+										</div>
+										<div class="tnamedes">
+											<h6>Savanna Nguyen
+												<span>CEO</span>
+											</h6>
+			
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="animated__line mt-50"></div>
+		</div>
+	</div>
+
+
+	<!-- service -->
+	<div class="blogTwo pt-110 pb-70">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="sectionStyle__two text-center">
+					<span><img src="assets/img/animated-icon/section.svg" alt="">Blog</span>
+					<h3>Design As a <u>Services</u>
+						Is The Why Forward.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="blogTwo__single">
+						<div class="image">
+							<img src="assets/img/blog/blog-2-1.jpg" alt="">
+						</div>
+						<div class="meta">
+							<div class="meta__author">
+								<a href="#" class="author"><i class="fa-solid fa-person"></i> Admin
+								</a>
+								<span><i class="fa-solid fa-calendar"></i>25 Sep</span>
+							</div>
+							<a href="#">High-quality images are essential for
+								marketing materials and websites.
+							</a>
+							<div class="meta__info">
+								<div class="img">
+									<div class="img"><img src="assets/img/author/author-1.jpg" alt=""></div>
+									<div class="auth">
+										<a href="#">Jonson Cary</a>
+										<span>Ceo</span>
+									</div>
+								</div>
+								<div class="readmore-btn">
+									<a href="#" class="round_with_arrow">
+										<i class="fa-solid fa-long-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="blogTwo__single">
+						<div class="image">
+							<img src="assets/img/blog/blog-2-2.jpg" alt="">
+						</div>
+						<div class="meta">
+							<div class="meta__author">
+								<a href="#" class="author"><i class="fa-solid fa-person"></i> Admin
+								</a>
+								<span><i class="fa-solid fa-calendar"></i>25 Sep</span>
+							</div>
+							<a href="#">High-quality images are essential for
+								marketing materials and websites.
+							</a>
+							<div class="meta__info">
+								<div class="img">
+									<div class="img"><img src="assets/img/author/author-1.jpg" alt=""></div>
+									<div class="auth">
+										<a href="#">Jonson Cary</a>
+										<span>Ceo</span>
+									</div>
+								</div>
+								<div class="readmore-btn">
+									<a href="#" class="round_with_arrow">
+										<i class="fa-solid fa-long-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="blogTwo__single">
+						<div class="image">
+							<img src="assets/img/blog/blog-2-3.jpg" alt="">
+						</div>
+						<div class="meta">
+							<div class="meta__author">
+								<a href="#" class="author"><i class="fa-solid fa-person"></i> Admin
+								</a>
+								<span><i class="fa-solid fa-calendar"></i>25 Sep</span>
+							</div>
+							<a href="#">High-quality images are essential for
+								marketing materials and websites.
+							</a>
+							<div class="meta__info">
+								<div class="img">
+									<div class="img"><img src="assets/img/author/author-1.jpg" alt=""></div>
+									<div class="auth">
+										<a href="#">Jonson Cary</a>
+										<span>Ceo</span>
+									</div>
+								</div>
+								<div class="readmore-btn">
+									<a href="#" class="round_with_arrow">
+										<i class="fa-solid fa-long-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- service end -->
+
+	<!-- footer -->
+	<footer class="footer pt-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer__widget">
+						<h5>Contact Us</h5>
+						<div class="footer__widget--contact">
+							<ul>
+								<li><i class="fa-sharp fa-solid fa-phone"></i><a
+										href="tel:+8801755202096">+8801755202096</a></li>
+								<li><i class="fa-regular fa-envelope"></i><a
+										href="mailto:contact@insomniacafe.org">contact@insomniacafe.org</a></li>
+							</ul>
+							<div class="footer__social">
+								<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="footer__widget">
+						<h5>Links</h5>
+						<div class="footer__widget--link">
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="career.html">Careers</a></li>
+								<li><a href="blog.html">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6">
+					<div class="footer__widget">
+						<h5>Resources</h5>
+						<div class="footer__widget--resource">
+							<ul>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">User Guide</a></li>
+								<li><a href="#">Realease</a></li>
+								<li><a href="#">Video tutorial </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-6">
+					<div class="footer__widget">
+						<h5>Newsletter</h5>
+						<div class="footer__widget--newsletter">
+							<p>If your business hosts events or exhibitions,
+								creative services can assist with event
+								planning, booth design.
+							</p>
+							<form action="#" class="newsletter-box">
+								<input type="email" placeholder="Email Address">
+								<button type="submit">Subscribe</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+
+	<!-- footer credit -->
+	<div class="footer-credit">
+		<div class="container">
+			<div class="footer-credit--img">
+				<a href="index.html"><img src="assets/img/logo/footer-logo.svg" alt="footer logo"></a>
+			</div>
+			<div class="footer-credit__wrapper">
+				<div class="copy-right">
+					All Rights Reserved <a href="#">Insomniacafe</a>
+				</div>
+				<div class="footer-links">
+					<ul>
+						<li><a href="faq.html">Terms of use</a></li>
+						<li><a href="faq.html">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer credit end -->
+
+	<!-- back to top -->
+	<div class="scroll active-scroll">
+		<svg class="scroll__circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+				style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 244.073px;">
+			</path>
+		</svg>
+	</div>
+	<!-- back to top end -->
+
+	<!-- all jquery plugins here -->
+	<!-- jquery -->
+	<script src="assets/js/Jquery-3.7.0.js"></script>
+	<!-- bootstrap- jquery included -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Kursor- jquery included -->
+	<script src="assets/js/kursor.min.js"></script>
+	<!-- slick slider- jquery included -->
+	<script src="assets/js/slick.min.js"></script>
+	<!-- niceselect - jquery included -->
+	<script src="assets/js/jquery.nice-select.min.js"></script>
+	<!-- imageloaded pkgd - jquery included -->
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<!-- appear - jquery included -->
+	<script src="assets/js/appear.min.js"></script>
+	<!-- modal video - jquery included -->
+	<script src="assets/js/jquery-modal-video.min.js"></script>
+	<!-- meamenu - jquery inclued -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- Sal - jquery included -->
+	<script src="assets/js/sal.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

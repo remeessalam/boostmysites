@@ -1,0 +1,55 @@
+.price-tag {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.price-tag svg {
+  width: 30px;
+  height: 30px;
+  fill: #68f2a0;
+}
+
+.plan-card {
+  border: 2px solid #68f2a0;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  height: 100%;
+}
+
+.price {
+  color: #68f2a0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #d1f831;
+  color: inherit;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: #d1f831;
+}
+
+.plan-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    margin-bottom: 2rem;
+  }
+}
